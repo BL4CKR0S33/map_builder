@@ -88,7 +88,7 @@ export function DownloadForm() {
             </FormItem>
           )}
         />
-        <Button type="submit">Submit</Button>
+        <Button type="submit">Download</Button>
       </form>
     </Form>
   );

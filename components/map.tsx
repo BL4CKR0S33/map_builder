@@ -123,7 +123,7 @@ export default function Map() {
                 src={"/tiles/" + cell.baseTexture}
                 alt={`Floor at ${cell.x},${cell.y}`}
                 fill
-                className="object-cover"
+                className="object-contain"
                 draggable={false}
               />
 
@@ -133,7 +133,7 @@ export default function Map() {
                   src={"/tiles/" + cell.objectTexture}
                   alt={`Object at ${cell.x},${cell.y}`}
                   fill
-                  className="object-cover"
+                  className="object-contain"
                   draggable={false}
                 />
               )}
